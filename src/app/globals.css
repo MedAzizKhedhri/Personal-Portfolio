@@ -183,10 +183,9 @@
     @apply bg-background text-foreground antialiased tracking-tight;
     position: relative;
     overflow-x: hidden;
-    background: #000000;
   }
 
-  body::before {
+  .dark body::before {
     content: "";
     position: fixed;
     bottom: -20%;
