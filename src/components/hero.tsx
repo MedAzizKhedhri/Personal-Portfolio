@@ -21,13 +21,13 @@ export function Hero() {
                         priority
                     />
                 </div>
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white">
                     <TextScramble text={`Hi, I'm ${RESUME_DATA.name}`} />
                 </h1>
-                <h2 className="text-xl font-medium text-muted-foreground sm:text-2xl md:text-3xl">
+                <h2 className="text-xl font-medium sm:text-2xl md:text-3xl">
                     <GradientText>Full Stack Web Developer</GradientText>
                 </h2>
-                <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+                <p className="max-w-[42rem] leading-normal text-gray-300 sm:text-xl sm:leading-8">
                     {RESUME_DATA.summary}
                 </p>
                 <div className="flex flex-wrap items-center justify-center gap-4">
